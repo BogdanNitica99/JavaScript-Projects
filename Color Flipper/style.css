@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  height: 10vh;
+  width: 100vw;
+
+  background-color: rgb(158, 158, 158);
+}
+
+#nav-title {
+  display: flex;
+  flex: 1;
+
+  justify-content: center;
+}
+
+#title {
+  font-size: 27px;
+}
+
+#nav-buttons {
+  display: flex;
+  flex: 2;
+
+  justify-content: center;
+}
+
+#nav-buttons button {
+  font-size: 18px;
+
+  height: 38px;
+  width: 77px;
+
+  margin-right: 17px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  height: 90vh;
+}
+
+main button {
+  font-size: 18px;
+
+  height: 38px;
+  width: 77px;
+
+  margin-right: 10px;
+}
