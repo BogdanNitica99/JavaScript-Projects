@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main-tab {
+  width: 40%;
+  margin: 10px;
+}
+
+#tab-div {
+  display: flex;
+}
+
+.tab {
+  display: flex;
+  border: 1px solid black;
+  padding: 13px;
+}
+
+.tab:hover {
+  background-color: rgb(224, 224, 224);
+  cursor: pointer;
+}
+
+.tab-content {
+  margin: 10px 10px 10px 0px;
+}
+
+.tab-content:nth-child(2),
+.tab-content:nth-child(3) {
+  display: none;
+}
